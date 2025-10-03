@@ -7,11 +7,10 @@
 
 ## 🔮 About Me  
 - 🎓 Computer Scientist  
-- 🎶 Music producer (aka Nova)  
+- 🎶 Music Lover  
 - 🌐 Currently building (soon)  
 - 💡 Exploring blockchain 
-- 🎮 Creator of **BLUB** – a fun platformer game with boss fights & secret levels  
-
+  
 ---
 
 ## ⌨️ Languages & Tools
@@ -42,8 +41,8 @@
 
 ## 🌍 Connect With Me
 <p align="left">
-  <a href="https://x.com/your-handle" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/your-handle" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://x.com/felixtaiwo12" target="_blank"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/cyberfelix" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://your-portfolio.com" target="_blank"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 </p>
 
