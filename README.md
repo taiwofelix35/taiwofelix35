@@ -1,15 +1,15 @@
 <!-- Profile README -->
 
 <h1 align="center">Hi 👋, I'm Felix</h1>
-<h3 align="center">🚀 A Passionate Developer Exploring Blockchain, AI & Web3 🚀</h3>
+<h3 align="center">🚀 A Passionate Researcher/Developer/Contributoe Exploring Blockchain, AI & Web3 🚀</h3>
 
 ---
 
 ## 🔮 About Me  
-- 🎓 Computer Science student  
+- 🎓 Computer Scientist  
 - 🎶 Music producer (aka Nova)  
-- 🌐 Currently building **MetaMorph** – AI-driven Web3 identity protocol  
-- 💡 Exploring blockchain scalability with **FOGOCHAIN**  
+- 🌐 Currently building (soon)  
+- 💡 Exploring blockchain 
 - 🎮 Creator of **BLUB** – a fun platformer game with boss fights & secret levels  
 
 ---
@@ -26,12 +26,6 @@
 
 ---
 
-## 🚀 Featured Projects  
-- [**FOGOCHAIN**](https://github.com/your-username/fogochain): 🔥 Blockchain scalability with Firedancer-Enhanced SVM  
-- [**MetaMorph**](https://github.com/your-username/metamorph): 🤖 AI-driven Web3 identity & reputation protocol  
-- [**BLUB**](https://github.com/your-username/blub): 🎮 A platformer game with traps, bosses & secrets  
-
----
 
 ## 📊 GitHub Stats
 <p align="center">
