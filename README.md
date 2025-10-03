@@ -28,14 +28,14 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight" alt="stats" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight" alt="streak" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=taiwofelix35&show_icons=true&theme=tokyonight" alt="stats" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=taiwofelix35&theme=tokyonight" alt="streak" height="180"/>
 </p>
 
 ---
 
 ## 🌱 Contribution Graph
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=tokyo-night)
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=taiwofelix35&theme=tokyo-night)
 
 ---
 
