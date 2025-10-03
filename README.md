@@ -50,5 +50,5 @@
 
 <p align="center"> 
   Visitor Count<br>
-  <img src="https://profile-counter.glitch.me/your-username/count.svg" />
+  <img src="https://profile-counter.glitch.me/taiwofelix35/count.svg" />
 </p>
