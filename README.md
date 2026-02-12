@@ -14,11 +14,6 @@
 
 ---
 
-## 🔥 Featured Project
-**[Polyclaw Alternatives Guide](./POLYCLAW_ALTERNATIVES.md)** - Comprehensive guide on profitable alternatives to Polymarket that can be combined with OpenClaw and Claude AI for automated trading and profit generation.
-
----
-
 ## ⌨️ Languages & Tools
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
