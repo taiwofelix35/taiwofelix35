@@ -10,7 +10,13 @@
 - 🎶 Music Lover  
 - 🌐 Currently building (soon)  
 - 💡 Exploring blockchain 
-  
+- 🤖 Researching AI agent automation and profitable trading strategies
+
+---
+
+## 🔥 Featured Project
+**[Polyclaw Alternatives Guide](./POLYCLAW_ALTERNATIVES.md)** - Comprehensive guide on profitable alternatives to Polymarket that can be combined with OpenClaw and Claude AI for automated trading and profit generation.
+
 ---
 
 ## ⌨️ Languages & Tools
