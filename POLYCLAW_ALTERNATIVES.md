@@ -330,8 +330,8 @@ OpenClaw + Claude + (Uniswap + Binance + dYdX) = DeFiCryptoClaw
 - [DeFi Pulse](https://defipulse.com/) - DeFi protocol rankings
 - [CoinGecko](https://www.coingecko.com/) - Crypto data
 - [Dune Analytics](https://dune.com/) - On-chain analytics
-- [OpenClaw Documentation](https://github.com/openclaw) - Agent framework
 - [Anthropic Claude](https://www.anthropic.com/) - AI capabilities
+- OpenClaw Documentation - Check GitHub for AI agent frameworks
 
 ### Development
 - [Web3.py](https://web3py.readthedocs.io/) - Ethereum Python library
@@ -340,10 +340,9 @@ OpenClaw + Claude + (Uniswap + Binance + dYdX) = DeFiCryptoClaw
 - [Langchain](https://langchain.com/) - LLM application framework
 
 ### Communities
-- [DeFi Reddit](https://reddit.com/r/defi)
-- [Crypto Twitter](https://twitter.com/search?q=%23DeFi)
-- [Discord Communities](https://discord.gg/) - Various protocol servers
-- [GitHub](https://github.com/) - Open source projects
+- [DeFi Reddit](https://reddit.com/r/defi) - DeFi discussions and insights
+- [Crypto Twitter](https://twitter.com/search?q=%23DeFi) - Real-time DeFi updates
+- [GitHub](https://github.com/) - Open source DeFi and trading projects
 
 ---
 
@@ -351,17 +350,23 @@ OpenClaw + Claude + (Uniswap + Binance + dYdX) = DeFiCryptoClaw
 
 ```python
 # Example: Cross-DEX Arbitrage with Claude Analysis
-from openclaw import Agent
-from anthropic import Claude
+import os
+from anthropic import Anthropic
 import ccxt
 
 class ArbitrageClaw:
     def __init__(self):
-        self.claude = Claude(api_key="your-key")
-        self.agent = Agent()
+        # Use environment variables for secure credential management
+        self.claude = Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
         self.exchanges = {
-            'binance': ccxt.binance(),
-            'coinbase': ccxt.coinbase()
+            'binance': ccxt.binance({
+                'apiKey': os.getenv('BINANCE_API_KEY'),
+                'secret': os.getenv('BINANCE_API_SECRET')
+            }),
+            'coinbase': ccxt.coinbase({
+                'apiKey': os.getenv('COINBASE_API_KEY'),
+                'secret': os.getenv('COINBASE_API_SECRET')
+            })
         }
     
     def find_opportunities(self):
@@ -372,16 +377,27 @@ class ArbitrageClaw:
             prices[name] = ticker['last']
         
         # Use Claude to analyze opportunity
-        prompt = f"Analyze these BTC prices: {prices}. Calculate arbitrage opportunity."
-        analysis = self.claude.analyze(prompt)
+        message = self.claude.messages.create(
+            model="claude-3-5-sonnet-20241022",
+            max_tokens=1024,
+            messages=[{
+                "role": "user",
+                "content": f"Analyze these BTC prices: {prices}. Calculate arbitrage opportunity and potential profit."
+            }]
+        )
         
-        return analysis
+        return message.content
     
     def execute_trade(self, opportunity):
-        # OpenClaw agent executes the trade
-        self.agent.execute(opportunity)
+        # Implement your trading logic here
+        # Always include proper risk management
+        pass
 
 # Initialize and run
+# Make sure to set environment variables first:
+# export ANTHROPIC_API_KEY=your-key
+# export BINANCE_API_KEY=your-key
+# export BINANCE_API_SECRET=your-secret
 bot = ArbitrageClaw()
 opportunities = bot.find_opportunities()
 print(opportunities)
