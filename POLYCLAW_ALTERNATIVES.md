@@ -389,6 +389,18 @@ class ArbitrageClaw:
         return message.content
     
     def execute_trade(self, opportunity):
+        """
+        Execute a trading opportunity.
+        
+        Args:
+            opportunity: Analysis result from Claude containing trade details
+            
+        Returns:
+            None
+            
+        Note: This is a placeholder. Implement proper trade execution logic
+        with risk management, position sizing, and error handling.
+        """
         # Implement your trading logic here
         # Always include proper risk management
         pass
@@ -398,6 +410,8 @@ class ArbitrageClaw:
 # export ANTHROPIC_API_KEY=your-key
 # export BINANCE_API_KEY=your-key
 # export BINANCE_API_SECRET=your-secret
+# export COINBASE_API_KEY=your-key
+# export COINBASE_API_SECRET=your-secret
 bot = ArbitrageClaw()
 opportunities = bot.find_opportunities()
 print(opportunities)
