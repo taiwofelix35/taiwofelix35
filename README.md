@@ -10,7 +10,8 @@
 - 🎶 Music Lover  
 - 🌐 Currently building (soon)  
 - 💡 Exploring blockchain 
-  
+- 🤖 Researching AI agent automation and profitable trading strategies
+
 ---
 
 ## ⌨️ Languages & Tools
