@@ -1,0 +1,17 @@
+body {
+    background-color: #f8f9fb;
+}
+
+.hero-section {
+    background: linear-gradient(120deg, #8e44ad, #ff6f91);
+}
+
+.salon-img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.notes-cell {
+    max-width: 220px;
+    white-space: pre-wrap;
+}
